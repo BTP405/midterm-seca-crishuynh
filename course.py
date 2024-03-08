@@ -56,7 +56,7 @@ class Course:
         """
 
         self.waitlisted_students.remove(student)
-        self.enroll_course.remove(student)
+        self.enrolled_students.remove(student)
         pass
 
 
